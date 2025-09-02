@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="cimagelogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cimage.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <header>
+
+        <!-- top logo of cimage -->
+
+        <div class="logo">
+
+            <!-- left side of logo -->
+
+            <div class="logo-left">
+                Follow Us:- &nbsp; &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+                &nbsp; &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path
+                        d="M4.5 9.5H4C3.05719 9.5 2.58579 9.5 2.29289 9.79289C2 10.0858 2 10.5572 2 11.5V20C2 20.9428 2 21.4142 2.29289 21.7071C2.58579 22 3.05719 22 4 22H4.5C5.44281 22 5.91421 22 6.20711 21.7071C6.5 21.4142 6.5 20.9428 6.5 20V11.5C6.5 10.5572 6.5 10.0858 6.20711 9.79289C5.91421 9.5 5.44281 9.5 4.5 9.5Z"
+                        stroke="currentColor" stroke-width="1.5" />
+                    <path
+                        d="M6.5 4.25C6.5 5.49264 5.49264 6.5 4.25 6.5C3.00736 6.5 2 5.49264 2 4.25C2 3.00736 3.00736 2 4.25 2C5.49264 2 6.5 3.00736 6.5 4.25Z"
+                        stroke="currentColor" stroke-width="1.5" />
+                    <path
+                        d="M12.326 9.5H11.5C10.5572 9.5 10.0858 9.5 9.79289 9.79289C9.5 10.0858 9.5 10.5572 9.5 11.5V20C9.5 20.9428 9.5 21.4142 9.79289 21.7071C10.0858 22 10.5572 22 11.5 22H12C12.9428 22 13.4142 22 13.7071 21.7071C14 21.4142 14 20.9428 14 20L14.0001 16.5001C14.0001 14.8433 14.5281 13.5001 16.0879 13.5001C16.8677 13.5001 17.5 14.1717 17.5 15.0001V19.5001C17.5 20.4429 17.5 20.9143 17.7929 21.2072C18.0857 21.5001 18.5572 21.5001 19.5 21.5001H19.9987C20.9413 21.5001 21.4126 21.5001 21.7055 21.2073C21.9984 20.9145 21.9985 20.4432 21.9987 19.5006L22.0001 14.0002C22.0001 11.515 19.6364 9.50024 17.2968 9.50024C15.9649 9.50024 14.7767 10.1531 14.0001 11.174C14 10.5439 14 10.2289 13.8632 9.995C13.7765 9.84686 13.6531 9.72353 13.505 9.63687C13.2711 9.5 12.9561 9.5 12.326 9.5Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+                &nbsp; &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path
+                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                    <path
+                        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                        stroke="currentColor" stroke-width="1.5" />
+                    <path d="M17.5078 6.5L17.4988 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                &nbsp; &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path
+                        d="M2 18.5C3.76504 19.521 5.81428 20 8 20C14.4808 20 19.7617 14.8625 19.9922 8.43797L22 4.5L18.6458 5C17.9407 4.37764 17.0144 4 16 4C13.4276 4 11.5007 6.51734 12.1209 8.98003C8.56784 9.20927 5.34867 7.0213 3.48693 4.10523C2.25147 8.30185 3.39629 13.3561 6.5 16.4705C6.5 17.647 3.5 18.3488 2 18.5Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+                &nbsp; &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path
+                        d="M12 20.5C13.8097 20.5 15.5451 20.3212 17.1534 19.9934C19.1623 19.5839 20.1668 19.3791 21.0834 18.2006C22 17.0221 22 15.6693 22 12.9635V11.0365C22 8.33073 22 6.97787 21.0834 5.79937C20.1668 4.62088 19.1623 4.41613 17.1534 4.00662C15.5451 3.67877 13.8097 3.5 12 3.5C10.1903 3.5 8.45489 3.67877 6.84656 4.00662C4.83766 4.41613 3.83321 4.62088 2.9166 5.79937C2 6.97787 2 8.33073 2 11.0365V12.9635C2 15.6693 2 17.0221 2.9166 18.2006C3.83321 19.3791 4.83766 19.5839 6.84656 19.9934C8.45489 20.3212 10.1903 20.5 12 20.5Z"
+                        stroke="currentColor" stroke-width="1.5" />
+                    <path
+                        d="M15.9621 12.3129C15.8137 12.9187 15.0241 13.3538 13.4449 14.2241C11.7272 15.1705 10.8684 15.6438 10.1728 15.4615C9.9372 15.3997 9.7202 15.2911 9.53799 15.1438C9 14.7089 9 13.8059 9 12C9 10.1941 9 9.29112 9.53799 8.85618C9.7202 8.70886 9.9372 8.60029 10.1728 8.53854C10.8684 8.35621 11.7272 8.82945 13.4449 9.77593C15.0241 10.6462 15.8137 11.0813 15.9621 11.6871C16.0126 11.8933 16.0126 12.1067 15.9621 12.3129Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+
+            </div>
+
+            <!-- right side of logo -->
+
+            <div class="logo-right">
+                <div class="whatsapp contact-logo">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"
+                            color="#000000" fill="none">
+                            <path
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.3789 2.27907 14.6926 2.78382 15.8877C3.06278 16.5481 3.20226 16.8784 3.21953 17.128C3.2368 17.3776 3.16334 17.6521 3.01642 18.2012L2 22L5.79877 20.9836C6.34788 20.8367 6.62244 20.7632 6.87202 20.7805C7.12161 20.7977 7.45185 20.9372 8.11235 21.2162C9.30745 21.7209 10.6211 22 12 22Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M8.58815 12.3773L9.45909 11.2956C9.82616 10.8397 10.2799 10.4153 10.3155 9.80826C10.3244 9.65494 10.2166 8.96657 10.0008 7.58986C9.91601 7.04881 9.41086 7 8.97332 7C8.40314 7 8.11805 7 7.83495 7.12931C7.47714 7.29275 7.10979 7.75231 7.02917 8.13733C6.96539 8.44196 7.01279 8.65187 7.10759 9.07169C7.51023 10.8548 8.45481 12.6158 9.91948 14.0805C11.3842 15.5452 13.1452 16.4898 14.9283 16.8924C15.3481 16.9872 15.558 17.0346 15.8627 16.9708C16.2477 16.8902 16.7072 16.5229 16.8707 16.165C17 15.8819 17 15.5969 17 15.0267C17 14.5891 16.9512 14.084 16.4101 13.9992C15.0334 13.7834 14.3451 13.6756 14.1917 13.6845C13.5847 13.7201 13.1603 14.1738 12.7044 14.5409L11.6227 15.4118"
+                                stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </span>
+                    <span>
+                        <p> WhatsApp Now !</p>
+                        <p> +91 72507 67676 </p>
+                    </span>
+                </div>
+                <div class="contact contact-logo">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"
+                            color="#000000" fill="none">
+                            <path
+                                d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M14 6.83185C15.4232 7.43624 16.5638 8.57677 17.1682 10M14.654 2C18.1912 3.02076 20.9791 5.80852 22 9.34563"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </span>
+                    <span>
+                        <p>Call Now !</p>
+                        <p>+91 98350 24444</p>
+                    </span>
+                </div>
+                <div class="mail contact-logo">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"
+                            color="#000000" fill="none">
+                            <path
+                                d="M5.00035 7L3.78154 7.81253C2.90783 8.39501 2.47097 8.68625 2.23422 9.13041C1.99747 9.57457 1.99923 10.0966 2.00273 11.1406C2.00696 12.3975 2.01864 13.6782 2.05099 14.9741C2.12773 18.0487 2.16611 19.586 3.29651 20.7164C4.42691 21.8469 5.98497 21.8858 9.10108 21.9637C11.0397 22.0121 12.9611 22.0121 14.8996 21.9637C18.0158 21.8858 19.5738 21.8469 20.7042 20.7164C21.8346 19.586 21.873 18.0487 21.9497 14.9741C21.9821 13.6782 21.9937 12.3975 21.998 11.1406C22.0015 10.0966 22.0032 9.57456 21.7665 9.13041C21.5297 8.68625 21.0929 8.39501 20.2191 7.81253L19.0003 7"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M2 10L8.91302 14.1478C10.417 15.0502 11.169 15.5014 12 15.5014C12.831 15.5014 13.583 15.0502 15.087 14.1478L22 10"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M5 12V6C5 4.11438 5 3.17157 5.58579 2.58579C6.17157 2 7.11438 2 9 2H15C16.8856 2 17.8284 2 18.4142 2.58579C19 3.17157 19 4.11438 19 6V12"
+                                stroke="currentColor" stroke-width="1.5" />
+                            <path d="M10 10H14M10 6H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span>
+                        <p>Email Now</p>
+                        <p>info@cimage.in</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar of cimage -->
+        <div class="navbar">
+            <div class="cimagelogo">
+                <img src="cimagelogo.png" alt="">
+            </div>
+            <div class="menu">
+
+                <div class="border">
+                    Home
+                </div>
+                <div class="border">
+                    About
+                </div>
+                <div class="border">
+                    Academic
+                </div>
+                <div class="border">
+                    placement
+                </div>
+                <div class="border">
+                    CIMAGE at Glace
+                </div>
+                <div class="border">
+                    Pedagogy
+                </div>
+                <div class="border">
+                    Social Initiatives
+                </div>
+                <div class="border">
+                    Career
+                </div>
+                <div class="border">
+                    Contact US
+                </div>
+                <div class="border">
+                    Blog
+                </div>
+                <div class="button">
+                    <button>APPLY ONLINE</button>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <tbody>
+
+        <!-- Body Admission 2024 -->
+
+        <div class="body">
+            <h1>ADMISSION 2024</h1>
+            <h2>Admission Procedure for 2024-2027</h2>
+        </div>
+
+        <!-- Cimage placement 2023 -->
+
+        <div class="placement">
+            <h1>CIMAGE CAMPUS PLACEMENT 2023</h1>
+            <img src="cimageplacement.jpg" alt="">
+        </div>
+
+        <!-- Enquiry section of cimage -->
+
+        <div class="enquiry">
+
+            <!-- Enquiry form and placement details -->
+
+            <div class="enquiry1">
+
+                <!-- placement details -->
+
+                <div class="left">
+
+                    <!-- placement photos and companies -->
+
+                    <div class="left-top">
+
+                        <!-- placement photos -->
+
+                        <div class="gallery">
+                            <div class="image-container">
+                                <img src="placement.png" alt="Image 2">
+                                <div class="overlay">
+                                    <div class="description">Campus placement</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- companies names -->
+
+                    </div>
+                    <div class="left-bottom">
+                        <div class="company-name">
+                            <h2>12000+ STUDENTS ARE PLACED IN 210+ COMPANIES</h2>
+                        </div>
+                        <div class="company">
+
+                            <div class="grid-items">
+                                <img src="airtel.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="axis bank.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="bigbasket.jpeg" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="byjus.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="flipkart.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="genpact.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="hdfc.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="ibm.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="infosys.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="kotak.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="TCS.png" alt="">
+                            </div>
+                            <div class="grid-items">
+                                <img src="wipro.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- enquiry form for admission -->
+
+                <div class="right">
+                    <h1>Enquiry Form</h1>
+                    <form>
+                        <label for="course">Select Course:</label>
+                        <select name="course" id="course">
+                            <option value="">Select</option>
+                        </select><br>
+
+                        <label for="name">Name of the Candidate:</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name Here"><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Youm Email Here"><br>
+
+                        <label for="mobile">Mobile No.:</label>
+                        <input type="tel" name="mobile" id="mobile" placeholder="Enter Mobile Number"><br>
+
+                        <label for="fatherName">Father's Name:</label>
+                        <input type="text" name="fatherName" id="fatherName" placeholder="Fathers' Name"><br>
+
+                        <label for="dob">Date Of Birth:</label>
+                        <input type="date" name="dob" id="dob"><br>
+
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="">--Select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select><br>
+
+                        <label for="category">Category:</label>
+                        <select name="category" id="category">
+                            <option value="general">General</option>
+                        </select><br>
+
+                        <label for="state">State:</label>
+                        <select name="state" id="state">
+                            <option value="">--Select State--</option>
+                        </select><br>
+
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city" placeholder="--Select State First--"><br>
+
+                        <button type="submit">Submit Now</button>
+                    </form>
+
+                </div>
+
+                <!-- Admission details -->
+
+            </div>
+            <div class="details">
+                BCA admission 2024 and BBA admission 2024 started at CIMAGE College Patna. Other courses like BBM, BBA,
+                B.com and PGDM admission are also started for 2024-27 session. At CIMAGE, admission is granted through
+                ‘Entrance cum Scholarship Test‘, followed by ‘One to one’ Personal Interview. Those, who qualify the
+                mentioned rounds below, are given the chance to take admission at CIMAGE. To get admission for 2024-27
+                session you can call at 7250767676 or fill the enquiry form at our website www.cimage.in. The
+                counsellors will get back to you and provides you all the information regarding admission in BCA, BBA,
+                BBM, BSc.IT or PGDM courses for 2024 session. Economical weaker student can opt the facility of Student
+                credit card issues by Bihar government to get admission at CIMAGE group of Institution. It is one of the
+                best college comes under Aryabhatta Knowledge University and Patliputra University. For the admission of
+                BCA and BBA courses, CIMAGE College is the best college as it is offering world class and modern
+                education environment with campus placement facility. Getting admission in CIMAGE is the best
+                opportunity for a student who wants to make a good career.
+                <br>
+                <br>
+                Since the CIMAGE college has started, it is always a first choice of all the students for the admission
+                of BCA and BBA in Patna. Once the student get admission in CIMAGE, he feels like entering a new world of
+                modern education. Along with the main course syllabus we are providing extra add-on courses to make our
+                students Job ready.
+                <br><br>
+                Candidates seeking admission in Undergraduate Programs BCA/ BBA / BBM / B.Com(P) / B.Sc.(IT) may either
+                apply Online or may collect ‘Entrance Exam Form’ from the College Reception by paying Rs. 800/-
+                <br><br>
+                <h1>Eligibility Criteria:</h1>
+                <br>
+                <p>
+                <ol type="1" start="1">
+                    <li>The Applicant must have qualified Intermediate/+2 in Arts, Science, or Commerce as a regular
+                        student or as a student of distance education</li>
+                    <li>The Applicant must have obtained at least 45% marks overall in intermediate/+2 level. The
+                        students from SC/ST/EBC/Differently abled Categories should have scored 40% marks overall.</li>
+                </ol>
+                </p>
+
+                <!-- admission details video -->
+
+                <div class="admission-process">
+                    <a href="https://www.youtube.com/watch?v=Z2rF77gzo_8" class="popup-video">
+                        <img loading="lazy" width="950" height="787" src="https://img.youtube.com/vi/Z2rF77gzo_8/0.jpg"
+                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid"
+                            alt="Admission Process" decoding="async"
+                            style="height: 100%; max-height: 500px; min-height: 277px">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </tbody>
+
+    <!-- welcome to cimage events -->
+    <div class="welcome">
+        <h1>Welcome to CIMAGE Group</h1>
+        <h2>EVENTS</h2>
+    </div>
+
+    <!-- event gallary 1 -->
+
+    <div class="gallery">
+        <div class="image-container">
+            <img src="placement.png" alt="Image 1">
+            <div class="overlay">
+                <div class="description">Placement1</div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="award2.jpeg" alt="Image 1">
+            <div class="overlay">
+                <div class="description">Awards</div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="celibetary.jpg" alt="Image 1">
+            <div class="overlay">
+                <div class="description">Celebrity </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="chaath.jpg" alt="Image 1">
+            <div class="overlay">
+                <div class="description">Chhath puja </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- event gallary 2 -->
+
+    <div class="gallery">
+        <div class="image-container" onclick="openPopup('popup-toggle2')">
+            <img src="saraswati puja.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="description">Saraswati puja </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="holi.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="description">Holi Mela</div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="inspiro.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="description">Inspro</div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="farewell.jpeg" alt="Image 2">
+            <div class="overlay">
+                <div class="description">Farewell party</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- popup window gallary-->
+    <input type="checkbox" id="popup-toggle2" class="popup-toggle">
+    <div class="popup">
+        <label for="popup-toggle2" class="close">&#10005;</label>
+        <div class="popup-content">
+
+            <div class="popup-image-container">
+                <img src="puja5.jpeg" alt="Popup Image 3">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja3.jpeg" alt="Popup Image 4">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja4.jpeg" alt="Popup Image 3">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja1.jpeg" alt="Popup Image 4">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja2.jpeg" alt="Popup Image 3">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja7.jpeg" alt="Popup Image 4">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja8.jpeg" alt="Popup Image 3">
+            </div>
+            <div class="popup-image-container">
+                <img src="puja6.jpeg" alt="Popup Image 4">
+            </div>
+            <div class="popup-image-container">
+                <img src="social1.jpeg" alt="Popup Image 3">
+            </div>
+            <div class="popup-image-container">
+                <img src="social2.jpeg" alt="Popup Image 4">
+            </div>
+
+            <button class="popup-button" onclick="closePopup('popup-toggle2')">Close</button>
+        </div>
+    </div>
+
+    <!-- contact details -->
+
+    <div class="contact-us">
+        <h1>CONTACT US</h1>
+        <div class="contacts">
+            <div class="box">
+                <img src="icons8-ringing-phone-48.png" alt="">
+                <p>Want to clear your doubr on phone. Call now
+                    +91-9835024444</p>
+            </div>
+            <div class="box">
+                <img src="icons8-mail-48.png" alt="">
+                <p>Mail your queries to info@cimage.in</p>
+            </div>
+            <div class="box pin">
+                <img src="icons8-pin-100.png" alt="">
+                <p> S.K. Puri Park, Boring Road, Patna</p>
+
+            </div>
+        </div>
+        <div class="social">
+            <div> You can also reach out to us on social media &nbsp; &nbsp; &nbsp; </div>
+            <div class="social-logo">
+                <img src="icons8-instagram-50.png" alt="">
+                <img src="icons8-twitter-squared-50.png" alt=""><img src="icons8-linkedin-50.png" alt=""><img
+                    src="icons8-facebook-50.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="last">
+            <p>Serving you is our duty so feel free to contact us. We are <br> always there for you <img
+                    src="icons8-heart-16.png" alt=""></p>
+        </div>
+
+
+    </div>
+
+    <!-- footer details -->
+
+    <footer>
+        <div class="footer">
+
+            <div class="footer-grid about">
+                <h1>
+                    About us
+                </h1><br>
+                <div class="about1">
+                    <p>Best BCA College in Patna Bihar offering an
+                        outstanding Job Placement. It is recognized as No.1
+                        College in Patna Bihar for IT & Management Courses such
+                        as BCA, BBA, BBM, BSc.IT etc. Over the years It has
+                        an excellent campus placement record. CIMAGE is affiliated
+                        to Aaryabhatta Knowledge University (AKU) & Patliputra University (PPU). Popularly known as best
+                        BBA college. It Achieved best B-School of East
+                        India award by ASSOCHAM. CIMAGE is the only remote center
+                        of IIT Bombay in Bihar.</p>
+                </div>
+            </div>
+            <div class="footer-grid rest">
+                <h1>Our Links</h1>
+                <br>
+                <p>Cimage Professional <br>
+                    College</p>
+                <p>CIMAGE</p>
+                <p>Catelyst College</p>
+                <p>Admission</p>
+                <p>CIMAGE Affiliation</p>
+                <p>CIMAGE Fee Structure</p>
+                <p>Student credit card</p>
+                <p>Career</p>
+                <p>Contact Us</p>
+
+            </div>
+            <div class="footer-grid rest">
+                <h1>Our Cources</h1>
+                <br>
+                <p>BCA (Under AKU & PU)</p>
+                <p>BBA (Under AKU)</p>
+                <p>BBM (Under PU)</p>
+                <p>B.Com (P) (Under AKU)</p>
+                <p>B.Sc-IT (Under PU)</p>
+                <p>PGDM (Under AIMA)</p>
+            </div>
+
+            <!-- footer cimage logo -->
+
+        </div>
+        <div class="last-footer">
+            <div class="cimage">
+                <img src="cimagelogo.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>Copyright © CIMAGE 2024 . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).checked = true;
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).checked = false;
+        }
+    </script>
+</body>
+
+</html>
